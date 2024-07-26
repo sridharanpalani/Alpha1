@@ -13,12 +13,15 @@ public class TestNGpro {
 	public void runTest() {		
 	
 	        List<String> names = new ArrayList<>();
-	        names.add("Alice");
-	        names.add("Bob");
-	        names.add("Alice");
-	        names.add("Charlie");
-	        names.add("Bob");
-	        names.add("Alice");
+	        names.add("abc");
+	        names.add("kkk");
+	        names.add("ABC");
+	        names.add("&*^$&%^(^(");
+	        names.add("oooq");
+	        names.add("jkjkljkl");
+	        names.add("nbhjereendkd86");
+	        names.add("abc");
+	        names.add("sss");
 
 	        // Count occurrences of each name
 	        Map<String, Integer> nameCountMap = countNames(names);
